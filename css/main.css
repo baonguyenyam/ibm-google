@@ -1,0 +1,30 @@
+body {
+    background: #eee;
+    margin-top: 20px;
+}
+
+.text-white,
+
+.product-link,
+.product-link:hover,
+.product-link:active,
+.product-link:visited {
+    color: white;
+}
+
+
+
+.product-name {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+}
+
+.product-img {
+    position: relative;
+    overflow: hidden;
+    display: block;
+}
