@@ -8,7 +8,7 @@ import ExpenseList from './components/ExpenseList';
 // import ExpenseItem from './components/ExpenseItem';
 import AllocationForm from './components/AllocationForm';
 // CurencyChange
-import CurencyChange from './components/CurencyChange';
+import Location from './components/Location';
 import { AppProvider } from './context/AppContext';
 
 const App = () => {
@@ -27,7 +27,7 @@ const App = () => {
                         <ExpenseTotal />
                     </div>
                     <div className='col-sm'>
-                        <CurencyChange />
+                        <Location />
                     </div>
                 </div>
                 <ExpenseList />

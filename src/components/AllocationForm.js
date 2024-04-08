@@ -2,7 +2,7 @@
 import React, { useContext, useState } from 'react';
 import { AppContext } from '../context/AppContext';
 const AllocationForm = (props) => {
-    const { dispatch,remaining  } = useContext(AppContext);
+    const { dispatch,remaining, Location  } = useContext(AppContext);
     const [name, setName] = useState('');
     const [cost, setCost] = useState('');
     const [action, setAction] = useState('');
@@ -57,7 +57,7 @@ const AllocationForm = (props) => {
                 <div className="input-group mb-3" style={{ marginLeft: '2rem' }}>
                     {/* inputgroup */}
                     <div className="input-group-prepend" style={{ marginLeft: '2rem' }}>
-                        <label className="input-group-text" htmlFor="cost">£</label>
+                        <label className="input-group-text" htmlFor="cost"> {Location}</label>
                     </div>
                     <input
                         required='required'
