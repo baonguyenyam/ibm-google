@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# Appointment Booking System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Appointment Booking System is a web-based application developed using Next.js, React, TypeScript, MongoDB, Prisma, and Tailwind CSS. It allows users to create an account, login, create their own business services, and book appointments with those services. The system provides features such as listing upcoming appointments, managing reservations, displaying business services, and implementing search and filter functionality. The application is also responsive, ensuring a seamless experience across different devices.
 
-## Available Scripts
+## Demo
 
-In the project directory, you can run:
+https://bookablebiz.vercel.app/
 
-### `npm start`
+## Project Intro video
+https://youtu.be/GOsriDFR_vY
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The Appointment Booking System provides the following key features:
 
-### `npm test`
+1. User Registration and Login:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   - Users can create an account by providing their details.
+   - Existing users can log in using their credentials.
 
-### `npm run build`
+2. Business Creation:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   - Logged-in users can add their own services.
+   - The system updates the service listings displayed on the home page.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Appointment Booking:
+   - Users can visit any service and can select a preferred date and time to book an appointment.
+   - Users can book appointments with their desired services.
+4. User Dashboard:
+   - Upcoming : Users can view their upcoming appointments and cancel appointmens.
+   - Your Reservations: Users can see the list of upcoming appointments for their business and business owner can cancel appointment with customer.
+   - Your Business: Users can view and manage the services offered by their business.
+5. Search and Filter Functionality:
+   - Users can search for specific services using location.
+   - Users can filter the list based on categories.
+6. Responsive Design:
+   - The application is designed to be responsive, providing an optimal user experience across different devices and screen sizes.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Installation and Setup
 
-### `npm run eject`
+To install and set up the Appointment Booking System, follow these steps:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Clone the project repository from the GitHub repository.
+- Make sure you have Node.js and npm (Node Package Manager) installed on your system.
+- Open a terminal or command prompt and navigate to the project's root directory.
+- Run the command `npm install` to install the project dependencies.
+- Set up the MongoDB database and connection URL.
+- Configure the Prisma ORM to connect to the MongoDB database.
+- Run the command `npm run dev` to start the development server.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Tech Stack
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **Next.js13:** A React framework for building server-side rendered and statically generated web applications.
+- **React:** A JavaScript library for building user interfaces.
+- **TypeScript:** A statically typed superset of JavaScript that enhances code quality and maintainability.
+- **MongoDB:** A NoSQL database used to store application data.
+- **Prisma:** An Object-Relational Mapping (ORM) tool that simplifies database access and management.
+- **Tailwind CSS:** A utility-first CSS framework that provides pre-defined styling classes and components.
