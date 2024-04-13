@@ -5,13 +5,13 @@
 }
 .hero-section {
     height: 100vh;
-    padding-top: 15rem;
+    padding-top: 10rem;
     background-color: transparent;
-    z-index: -1;
+    z-index: +5;
 }
 .hero-section .flex-hero {
     flex-direction: column;
-    gap: 30px;
+    gap: 20px;
     text-align:center;
 }
 
@@ -94,7 +94,7 @@ button {
         text-align: center;
     }
     .hero-section {
-        padding-top: 12rem;
+        padding-top: 6rem;
     }
     .hero-section h4 {
         font-size: 21px;

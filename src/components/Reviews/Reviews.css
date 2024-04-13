@@ -1,0 +1,60 @@
+.review-list-container{
+    width: 60%;
+    margin-left: 25%;
+    margin-right: 15%;
+    text-align: center;
+    font-size: 13px;
+}
+
+.review-table{
+    width: auto;
+}
+
+.review-id-column{
+    width: auto;
+}
+
+.review-name-column{
+    width: 22%;
+}
+
+.review-speciality-column{
+    width: auto;
+}
+
+.review-feedback-column{
+    width: 18%;
+}
+
+.review-review-column{
+    width: auto;
+}
+
+.doctor-review-row{
+    height:3rem;
+    border-bottom: 1px solid grey;
+}
+
+.review-feedback-button{
+  border: none;
+  color: white;
+  padding: 2px 5px;
+  text-align: center;
+  text-decoration: none; 
+  font-size: 13px;
+  height: 1.5rem;
+  width: max-content;
+}
+
+reviewText{
+    height: 50px;
+}
+
+review-modal-body{
+    text-align: left;
+}
+
+
+
+
+

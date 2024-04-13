@@ -1,0 +1,25 @@
+.form-link {
+    color: #1d4bca; 
+  }
+
+
+#forgotpassword {
+  text-align: center;
+}
+
+.passwordfield {
+  width: 100%;
+}
+
+.form-button {
+  width:100%;
+  align-items: center;
+  text-align: center;
+}
+
+
+.formfields {
+    
+    text-align: center;
+}
+
