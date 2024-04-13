@@ -48,9 +48,8 @@ const Navbar = () => {
   return (
     <nav>
       <div className="nav__logo">
-        <Link to="/">
-          StayHealthy <i style={{ color: '#2190FF' }} className="fa fa-user-md"></i></Link>
-        <span>.</span>
+        <Link to="/" style={{ fontWeight: "bold" }}>
+          Nguyen App</Link>
       </div>
       <div className="nav__icon" onClick={handleClick}>
         <i className={click ? "fa fa-times" : "fa fa-bars"}></i>

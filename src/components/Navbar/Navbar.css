@@ -134,7 +134,12 @@ nav {
     border: 2px solid #3685fb;
     background-color: white;
     color: black;
-    border-radius: 50px;
+    border-radius: 30px;
+    padding: 5px 20px;
+    text-transform: uppercase;
+    color: #3685fb;
+    font-weight: 600;
+    margin-top: 0;
   }
   
   .btn1:hover{
@@ -146,12 +151,10 @@ nav {
     border: 2px solid #3685fb;
     background-color: white;
     color: black;
-    border-radius: 50px;
-    height:30px;
+    border-radius: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top:3px;
   }
   
   .btn2:hover{
